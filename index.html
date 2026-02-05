@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Co-Founder by David Beckham</title>
-    <link rel="shortcut icon" href="./Images/fav.png" type="image/x-icon">
+    <link rel="icon" href="./Images/fav.png">
     <link rel="stylesheet" href="./CSS/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,70 +16,74 @@
 
 <body>
 
-    <section style="background-color: #A40011; color: white !important; padding: 10px 0 10px 0; display: flex;  ">
-        <div style="width: 100%; cursor: pointer;">
-            <p style="text-align: center; color: white !important;">2026 STARTS NOW: 35% OFF — Feel Like Yourself Again</p>
+
+    <section class="top-bar">
+        <div class="top-text">
+            <p>2026 STARTS NOW: 35% OFF — Feel Like Yourself Again</p>
         </div>
-        <select id="" style="margin-right: 5%; background-color: #A40011; color: white !important; border: none; outline: none;">
-            <option value="USD">USD</option>
-            <option value="AUD">AUD</option>
-            <option value="BDT">BDT</option>
+        <select class="currency">
+            <option>USD</option>
+            <option>AUD</option>
+            <option>BDT</option>
         </select>
     </section>
 
-    <nav
-        style="display: flex; justify-content: space-between; align-items: center; padding: 20px 0; max-width: 1350px; margin: auto; ">
+    <nav class="main-nav">
         <ul class="nav">
-            <li class="nav_li"><a href="" class="nav_a">
-                    <div class="dropdown">
-                        <button class="btn pulse">Shop ▼</button>
-                        <div class="dropdown-content">
-                            <img src="./Images/drop.png" style="width: 370px;" alt="">
-                            <img src="./Images/drop1.png" style="width: 370px; margin: 20px 0;" alt="">
-                            <img src="./Images/drop2.png" style="width: 370px;" alt="">
-                            <img src="./Images/drop3.png" style="width: 370px; margin: 20px 0;" alt="">
-                            <img src="./Images/drop.png" style="width: 370px;" alt="">
-                        </div>
-                    </div>
-                </a></li>
-            <li class="nav_li"><a href="" class="nav_a">Sclence</a></li>
-            <li class="nav_li"><a href="" class="nav_a">The Beckham Stack</a></li>
-            <li class="nav_li"><a href="" class="nav_a">Welcome from Davld</a></li>
-        </ul>
-
-        <img src="./Images/Logo.png" style="width: 95px;" alt="">
-
-        <div style="display: flex; align-items: center; gap: 20px;">
-            <ul class="nav">
-                <li class="nav_li"><a href="" class="nav_a">Reviews</a></li>
-                <li class="nav_li"><a href="" class="nav_a">Ingredients</a></li>
+            <li class="nav_li">
                 <div class="dropdown">
-                    <button class="btn pulse">Discover ▼</button>
+                    <button class="btn pulse">Shop ▼</button>
                     <div class="dropdown-content">
-                        <a href="" class="nav_a">About Us</a>
-                        <a href="" class="nav_a">Our Impact</a>
-                        <a href="" class="nav_a">Quality and Standards</a>
-                        <a href="" class="nav_a">The Healthspan Blog</a>
+                        <img src="./Images/drop.png" alt="">
+                        <img src="./Images/drop1.png" alt="">
+                        <img src="./Images/drop2.png" alt="">
+                        <img src="./Images/drop3.png" alt="">
+                        <img src="./Images/drop.png" alt="">
                     </div>
                 </div>
+            </li>
+            <li class="nav_li"><a href="#" class="nav_a">Sclence</a></li>
+            <li class="nav_li"><a href="#" class="nav_a">The Beckham Stack</a></li>
+            <li class="nav_li"><a href="#" class="nav_a">Welcome from Davld</a></li>
+        </ul>
+
+        <!-- LOGO (hidden on small screen via CSS only) -->
+        <img src="./Images/Logo.png" class="nav-logo" alt="">
+
+        <div class="nav-right">
+            <ul class="nav">
+                <li class="nav_li"><a href="#" class="nav_a">Reviews</a></li>
+                <li class="nav_li"><a href="#" class="nav_a">Ingredients</a></li>
+                <li class="nav_li">
+                    <div class="dropdown">
+                        <button class="btn pulse">Discover ▼</button>
+                        <div class="dropdown-content">
+                            <a href="#" class="nav_a">About Us</a>
+                            <a href="#" class="nav_a">Our Impact</a>
+                            <a href="#" class="nav_a">Quality and Standards</a>
+                            <a href="#" class="nav_a">The Healthspan Blog</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
 
-            <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-badge-info-icon lucide-badge-info">
+            <!-- icons -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path
                     d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
                 <line x1="12" x2="12" y1="16" y2="12" />
                 <line x1="12" x2="12.01" y1="8" y2="8" />
             </svg>
-            <svg style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-user-round-icon lucide-user-round">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="8" r="5" />
                 <path d="M20 21a8 8 0 0 0-16 0" />
             </svg>
         </div>
     </nav>
+
 
     <section class="hero-banner-grid ">
         <div style="display: flex;">
@@ -153,7 +157,939 @@
             <p style="font-size: 12px;"> AS FEATURED IN</p>
         </div>
 
+        <div class="forbes">
+            <img src="./Images/for.png" alt="">
+            <img src="./Images/men.png" alt="">
+            <img src="./Images/today.png" alt="">
+            <img src="./Images/fort.png" alt="">
+            <img src="./Images/fast.png" alt="">
+            <img src="./Images/ath.png" alt="">
+        </div>
     </section>
+
+    <section>
+        <div class="bg-banner">
+            <video autoplay muted loop playsinline>
+                <source src="/Images/bg video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="bg-overlay"></div>
+
+            <div class="banner-content">
+                <h1>CLINICALLY PROVEN. THIRD-PARTY TESTED.</h1>
+                <p style="text-align: center; margin-top: 30px;">Every ingredient and dosage is third-party tested. <br>
+                    This guarantees
+                    that you know exactly what you're putting into your body.</p>
+                <a href="#" class="cta-button">View Third Party Results</a>
+
+                <div class="stats-section">
+                    <div class="stat">
+                        <h3>More Energy</h3>
+                        <h2>95%</h2>
+                        <p>Of participants felt a noticeable boost in daily energy</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>A Healthier Gut</h3>
+                        <h2>85%</h2>
+                        <p>Of participants experienced better digestion and less bloating</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>Sleep Better</h3>
+                        <h2>80%</h2>
+                        <p>Participants reported getting better sleep</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>Perform Sharper</h3>
+                        <h2>75%</h2>
+                        <p>Of participants noticed sharper focus and improved mental clarity</p>
+                    </div>
+                </div>
+
+                <p style="font-size: 12px; font-weight: 500; text-align: left; margin-left: 80px;">Results based on a
+                    12-Week Randomized, Controlled, Clinical Trial conducted by the San Francisco
+                    Research Institute</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="premium-section">
+        <div class="container">
+            <h2 class="section-title">Premium Core Nutrition</h2>
+            <div class="section-info">
+                <span><span class="check"></span> 30-Day money back guarantee</span>
+                <span><span class="check"></span> Update or cancel anytime</span>
+                <span><span class="check"></span> Free shipping for all subscriptions</span>
+            </div>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <span class="badge badge-red">BEST SELLER</span>
+
+                    <img src="./Images/allinone.png" alt="">
+
+                    <span class="pill pill-red">FEEL AMAZING TODAY</span>
+
+                    <h3>Daily Ultimate Essentials:<br>All-in-One Supplement</h3>
+                    <p>Core nutrition with 92 nutrient-rich ingredients in one delicious drink.</p>
+                    <strong>From $89</strong>
+                </div>
+
+                <div class="product-card">
+                    <img src="./Images/healthy.png" alt="">
+
+                    <span class="pill pill-orange">STAY YOUNG TOMORROW</span>
+
+                    <h3>Daily Ultimate Longevity:<br>Healthy Aging</h3>
+                    <p>The world’s first supplement scientifically formulated to support all 12 hallmarks of aging.</p>
+                    <strong>From $119</strong>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="product-card">
+                    <span class="badge badge-red">BEST VALUE</span>
+
+                    <img src="./Images/essentials.jpg" alt="">
+
+                    <span class="pill pill-orange">THE ULTIMATE DAILY RITUAL</span>
+
+                    <h3>The Beckham Stack:<br>Essentials + Longevity Set</h3>
+                    <p>Daily Ultimate Essentials and Daily Ultimate Longevity.</p>
+                    <strong>From $196</strong>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="certification-section">
+        <div class="nsf-card">
+            <div class="nsf-left">
+                <img src="./Images/contents.png" alt="NSF Contents Certified">
+                <img src="./Images/sport.png" alt="NSF Certified Sport">
+            </div>
+
+            <div class="nsf-right">
+                <h2>NSF SPORT CERTIFIED</h2>
+                <p>
+                    Every ingredient in Daily Ultimate Essentials and Daily Ultimate Longevity
+                    is third-party tested and NSF Certified for Sport, ensuring it's free from
+                    over 280 banned substances, heavy metals, and contaminants.
+                    Our rigorous quality standards exceed industry requirements,
+                    making our formula trusted by athletes and sports leagues,
+                    including WADA, NFL, MLB, NHL, and PGA.
+                </p>
+
+                <a href="#" class="nsf-link">View Third-Party Testing Results</a>
+            </div>
+        </div>
+
+        <!-- ICON STRIP -->
+        <div class="feature-strip">
+            <div class="feature-logo">
+                <img src="./Images/third.png" alt="">
+            </div>
+
+            <div class="feature-logo">
+                <img src="./Images/non.png" alt="">
+            </div>
+
+            <div class="feature-item">Vegan</div>
+            <div class="feature-item">Allergen-free</div>
+            <div class="feature-item">Gluten-free</div>
+            <div class="feature-item">No artificial flavors</div>
+            <div class="feature-item">No added sugar</div>
+            <div class="feature-item">No artificial sweeteners</div>
+        </div>
+
+    </section>
+
+    <section class="experts">
+        <div class="experts-container">
+
+            <h2>BACKED BY WORLD-CLASS SCIENTIFIC EXPERTISE</h2>
+            <h3>Meet the Experts Behind IM8’s Revolutionary Formula</h3>
+
+            <p>
+                Our Scientific Advisory Board brings together leading experts in nutrition,
+                medicine, and performance science. This distinguished team has collaborated
+                to develop a formula that represents the cutting edge of nutritional science.
+            </p>
+
+            <div class="experts-grid">
+
+                <div class="expert-card">
+                    <img src="./Images/suz.png" alt="">
+                    <div class="expert-info">
+                        <h4>Prof. Suzanne Devkota</h4>
+                        <span>Director of Cedars-Sinai Human Microbiome Research Institute</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+                <div class="expert-card">
+                    <img src="./Images/jm.png" alt="">
+                    <div class="expert-info">
+                        <h4>Dr. James L. Green</h4>
+                        <span>Former Chief Scientist of NASA</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+                <div class="expert-card">
+                    <img src="./Images/daw.png" alt="">
+                    <div class="expert-info">
+                        <h4>Dr. Dawn Mussallem</h4>
+                        <span>CMO of Fountain Life & Integrative Oncologist at Mayo Clinic</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+                <div class="expert-card">
+                    <img src="./Images/james.png" alt="">
+                    <div class="expert-info">
+                        <h4>Dr. James DiNicolantonio</h4>
+                        <span>Cardiovascular Research Scientist and Doctor of Pharmacy</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+                <div class="expert-card">
+                    <img src="./Images/jeremy.png" alt="">
+                    <div class="expert-info">
+                        <h4>Dr. Jeremy London</h4>
+                        <span>Board Certified Cardiovascular Surgeon</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+                <div class="expert-card">
+                    <img src="./Images/amy.png" alt="">
+                    <div class="expert-info">
+                        <h4>Dr. Amy Shah</h4>
+                        <span>Double-Board Certified Physician & Host of Podcast “Save Yourself”</span>
+                    </div>
+                    <div class="plus">+</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="testimonial-box">
+
+            <span class="quote quote-left">“</span>
+            <span class="quote quote-right">”</span>
+
+            <p class="testimonial-text">
+                As a doctor, I’m passionate about science-backed nutrition. IM8’s
+                commitment to third-party testing and rigorous clinical trials gives me
+                complete confidence. I use it daily for trusted, optimal health support.
+            </p>
+
+            <div class="testimonial-author">
+                <img src="./Images/amy.png" alt="Dr. Amy Shah">
+                <div class="author-info">
+                    <strong>— Dr. Amy Shah,</strong>
+                    <span>
+                        Double-Board Certified Physician & Host of Podcast “Save Yourself”
+                    </span>
+                    <em>@dramyshah</em>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="beckham-note">
+        <div class="note-container">
+            <div class="note-content">
+                <h2>A NOTE FROM<br>DAVID BECKHAM</h2>
+
+                <p>
+                    I’ve been fortunate to work with some of the world’s top medical professionals,
+                    nutrition experts, and fitness coaches throughout my life. Their guidance has
+                    always been crucial to my health. Since retiring from football, I’ve focused even
+                    more on eating well and staying informed about the latest science in health and
+                    supplements.
+                </p>
+
+                <p>
+                    Supplements have been a part of my daily routine for years, but I’ve often felt
+                    overwhelmed by how many different products it takes to truly support your body.
+                    That’s why IM8 is so different — it’s simplified everything for me.
+                </p>
+
+                <p>
+                    Since taking IM8 daily, I’ve genuinely felt better — more energy, better focus,
+                    and just a stronger sense of overall wellness. And one of the best parts? It tastes
+                    amazing — like a refreshing blend of acai and mixed berries.
+                </p>
+
+                <p>
+                    I’ve shared IM8 with my friends and family, and everyone’s felt the difference —
+                    whether it’s more energy, better sleep or just feeling like they’re finally on top
+                    of their health.
+                </p>
+
+                <p>
+                    We’ve built a world-class scientific advisory board with leaders in medicine,
+                    nutrition, and even space science. Every ingredient in IM8 is selected with
+                    intention and backed by rigorous research.
+                </p>
+
+                <p>
+                    For me, taking care of my health means being present for my family and living fully,
+                    every day. IM8 helps me do that.
+                </p>
+
+                <div class="signature">
+                    <strong>David Beckham</strong><br>
+                    <span>Co-Founding Partner</span>
+                </div>
+            </div>
+
+            <div class="note-media">
+                <video src="./Images/note.mp4" autoplay muted loop playsinline preload="auto"></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="im8-hero">
+        <div class="im8-container">
+
+            <h1 class="im8-heading">
+                REPLACE YOUR DAILY SUPPLEMENTS<br>
+                <span>WITH <em>ONE DRINK</em></span>
+            </h1>
+
+            <div class="im8-image">
+                <img src="./Images/save.png" alt="IM8 Daily Ultimate Essentials">
+            </div>
+
+            <h3 class="im8-subheading">
+                Save Money, Time And Simplify Your Routine With IM8
+            </h3>
+
+            <p class="im8-description">
+                The average health-conscious consumer spends hundreds of dollars monthly on multiple supplements, each
+                addressing only one aspect of health.
+                IM8 Daily Ultimate Essentials consolidates 16 common supplements into one comprehensive formula, saving
+                you money, time, and the hassle of managing multiple products.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="ingredients">
+        <div class="ingredients-container">
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/multivitamin.png" alt="">
+                <div class="content">
+                    <h4>Multivitamin & Minerals</h4>
+                    <p>Complete spectrum of essential vitamins and minerals</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Prebiotic_Fiber.png" alt="">
+                <div class="content">
+                    <h4>Prebiotics</h4>
+                    <p>Supports gut microbiome health</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Probiotics.png" alt="">
+                <div class="content">
+                    <h4>Probiotics</h4>
+                    <p>10 billion CFU of clinically studied strains</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Lactobacillus.jpg" alt="">
+                <div class="content">
+                    <h4>Postbiotics</h4>
+                    <p>Bioactive compounds supporting gut-immune axis</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Digestive_Enzymes.png" alt="">
+                <div class="content">
+                    <h4>Digestive Enzymes</h4>
+                    <p>Enhances nutrient absorption</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Selenium.jpg" alt="">
+                <div class="content">
+                    <h4>Antioxidant Complex</h4>
+                    <p>Combats oxidative stress and supports cellular health</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Amyloglucosidase.jpg" alt="">
+                <div class="content">
+                    <h4>Adaptogen Complex</h4>
+                    <p>Helps body manage stress and maintain balance</p>
+                </div>
+            </div>
+
+            <div class="ingredient-card">
+                <span class="plus">+</span>
+                <img src="./Images/Spinach.jpg" alt="">
+                <div class="content">
+                    <h4>Superfoods, Greens and Fruits</h4>
+                    <p>Concentrated nutrients from vegetables and superfoods</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="view-all-wrap">
+            <a href="#" class="view-all-btn">VIEW ALL</a>
+        </div>
+
+    </section>
+
+    <section class="compare">
+        <div class="compare-container">
+
+            <div class="compare-left">
+                <h2>
+                    Daily Ultimate<br>
+                    Essentials Replaces<br>
+                    <span>16 Supplements</span>
+                </h2>
+
+                <a href="#" class="facts-btn">VIEW SUPPLEMENT FACTS</a>
+
+                <div class="savings-box">
+                    <div class="savings">
+                        <p class="label">ANNUAL SAVINGS</p>
+                        <h3>$2,532 – $3,000</h3>
+                        <p class="per">per year</p>
+                        <small>when switching to IM8</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compare-center">
+                <img src="./Images/center.png" alt="IM8 Product">
+            </div>
+
+            <div class="compare-right">
+                <h3 class="breakdown-title">Monthly breakdown</h3>
+
+                <ul class="breakdown">
+                    <li>
+                        <span class="item">Multivitamins, Minerals & Antioxidants</span>
+                        <span class="price">$35 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Superfoods, Greens & Fruits</span>
+                        <span class="price">$50 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Immunity</span>
+                        <span class="price">$20 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Electrolytes</span>
+                        <span class="price">$40 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Adaptogens & Super Mushrooms</span>
+                        <span class="price">$30 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Prebiotics, Probiotics & Postbiotics</span>
+                        <span class="price">$40 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">CoQ10 (Heart Vitality)</span>
+                        <span class="price">$30 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">MSM (Joint & Muscle Vitality)</span>
+                        <span class="price">$25 USD</span>
+                    </li>
+                    <li>
+                        <span class="item">Essential Amino Acids</span>
+                        <span class="price">$20 USD</span>
+                    </li>
+                </ul>
+
+                <div class="price-box">
+                    <div>
+                        <span>Your Traditional Supplements</span>
+                        <strong>$290 USD</strong>
+                    </div>
+                    <div class="highlight">
+                        <span>IM8 Daily Ultimate Essentials</span>
+                        <strong>$89 USD</strong>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="organ-section">
+        <div class="container">
+            <div>
+                <div class="toggle">
+                    <button class="active">Daily Ultimate Essentials</button>
+                    <button>Daily Ultimate Longevity</button>
+                </div>
+            </div>
+
+            <div class="body-support-badge">
+                COMPREHENSIVE BODY SUPPORT
+            </div>
+
+            <h2>9 Major Organ Systems</h2>
+            <p class="subtitle">
+                One serving delivers comprehensive support for your entire body,
+                replacing multiple supplements with a single, powerful formula.
+            </p>
+
+            <div class="content-grid">
+
+                <div class="cards">
+                    <div class="card "><span>01</span>
+                        <p>Digestive</p>
+                    </div>
+                    <div class="card"><span>02</span>
+                        <p>Immune</p>
+                    </div>
+                    <div class="card"><span>03</span>
+                        <p>Cardiovascular</p>
+                    </div>
+                    <div class="card"><span>04</span>
+                        <p>Muscular</p>
+                    </div>
+                    <div class="card"><span>05</span>
+                        <p>Skeletal</p>
+                    </div>
+                    <div class="card"><span>06</span>
+                        <p>Integumentary</p>
+                    </div>
+                    <div class="card"><span>07</span>
+                        <p>Nervous</p>
+                    </div>
+                    <div class="card"><span>08</span>
+                        <p>Endocrine</p>
+                    </div>
+                    <div class="card"><span>09</span>
+                        <p>Urinary</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <h3>Digestive Support</h3>
+                    <small>PREBIOTICS, PROBIOTICS, POSTBIOTICS, ENZYMES</small>
+                    <p>
+                        A complete 4-tier digestive support system featuring
+                        10 Billion CFU of probiotics and clinically proven enzymes
+                        to optimize nutrient absorption and gut health.
+                    </p>
+                    <span class="pill">✔ Clinically Dosed Ingredients</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pillars-section">
+
+        <div class="bg-banner">
+            <video autoplay muted loop playsinline>
+                <source src="/Images/bg video.mp4" type="video/mp4">
+            </video>
+            <div class="bg-overlay"></div>
+        </div>
+
+        <div class="container">
+
+            <!-- Top -->
+            <div class="top-area">
+                <div>
+                    <div class="tabs">
+                        <span class="tab active">Daily Ultimate Essentials</span>
+                        <span class="tab">Daily Ultimate Longevity</span>
+                    </div>
+                </div>
+
+                <div class="badgess">COMPREHENSIVE BODY SUPPORT</div>
+
+                <h2>5 Pillars of Total Health</h2>
+                <p class="subtitle">
+                    A holistic approach to wellness, addressing every dimension of your health
+                    with precision-formulated ingredients.
+                </p>
+            </div>
+
+            <!-- Main Grid -->
+            <div class="main-grid">
+
+                <!-- Left -->
+                <div class="pillars-list">
+
+                    <div class="pillar-item active">
+                        <span class="num" style="color: white;">01</span>
+                        <img src="./Images/svg-image-35.png" class="pillar-img active-img">
+                        <div>
+                            <h4 style="color: white;">Comprehensive Nutritional Foundation</h4>
+                            <p style="color: white;">Complete Vitamin & Mineral Profile</p>
+                        </div>
+                    </div>
+
+                    <div class="pillar-item">
+                        <span class="num">02</span>
+                        <img src="./Images/svg-image-41.png" class="pillar-img">
+                        <div>
+                            <h4>Superior Digestive Health Support</h4>
+                            <p>4-Tier Digestive System</p>
+                        </div>
+                    </div>
+
+                    <div class="pillar-item">
+                        <span class="num">03</span>
+                        <img src="./Images/svg-image-37.png" class="pillar-img">
+                        <div>
+                            <h4>Powerful Superfood & Antioxidant Complex</h4>
+                            <p>4100mg Raw Superfoods Blend</p>
+                        </div>
+                    </div>
+
+                    <div class="pillar-item">
+                        <span class="num">04</span>
+                        <img src="./Images/svg-image-38.png" class="pillar-img">
+                        <div>
+                            <h4>Specialized Health Complexes</h4>
+                            <p>Targeted Performance Support</p>
+                        </div>
+                    </div>
+
+                    <div class="pillar-item">
+                        <span class="num">05</span>
+                        <img src="./Images/svg-image-39.png" class="pillar-img">
+                        <div>
+                            <h4>Cell Rejuvenation Technology™</h4>
+                            <p>Proprietary Longevity Complex</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pillar-card pillar-4">
+
+                    <span class="pillar-badge">PILLAR 4</span>
+
+                    <div class="pillar-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="3" stroke="#6a0f1c" stroke-width="2" />
+                            <circle cx="12" cy="12" r="8" stroke="#6a0f1c" stroke-width="1.5" />
+                            <line x1="12" y1="2" x2="12" y2="6" stroke="#6a0f1c" stroke-width="1.5" />
+                            <line x1="12" y1="18" x2="12" y2="22" stroke="#6a0f1c" stroke-width="1.5" />
+                            <line x1="2" y1="12" x2="6" y2="12" stroke="#6a0f1c" stroke-width="1.5" />
+                            <line x1="18" y1="12" x2="22" y2="12" stroke="#6a0f1c" stroke-width="1.5" />
+                        </svg>
+                    </div>
+
+                    <h2>Specialized Health Complexes</h2>
+
+                    <p class="pillar-sub">TARGETED SUPPORT FOR PERFORMANCE</p>
+
+                    <div class="divider"></div>
+
+                    <h4>KEY INGREDIENTS</h4>
+
+                    <ul class="ingredient-list">
+                        <li>Advanced Hydration & Electrolyte (2,500mg): Hydra Electrolytes Complex</li>
+                        <li>Essential Amino Acid & Recovery (1,165mg): Amino & Renew Complex</li>
+                        <li>Joint & Muscle Health (1,000mg): MSM, Supports Collagen</li>
+                        <li>Adaptogenic & Mushroom Support (200mg): Ashwagandha, Reishi, Lion's Mane</li>
+                        <li>Heart Health Support (100mg): CoQ10, Cellular</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="bottom-cards">
+                <div class="info-card">
+                    <img src="./Images/svg-image-41.svg">
+                    <h4>Superior Ingredient Forms</h4>
+                    <p>Bioactive vitamins & organic minerals.</p>
+                </div>
+
+                <div class="info-card">
+                    <img src="./Images/svg-image-42.svg">
+                    <h4>Clean Formulation</h4>
+                    <p>No Stevia, Non-GMO, Vegan-Friendly.</p>
+                </div>
+
+                <div class="info-card">
+                    <img src="./Images/svg-image-43.svg">
+                    <h4>Branded Ingredients</h4>
+                    <p>Quatrefolic®, VegD3®, FloraSMART®</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="beyond-section">
+        <div class="beyond-wrapper">
+
+            <div class="beyond-image">
+                <img src="./Images/left.png" alt="IM8 Product">
+            </div>
+
+            <div class="beyond-content">
+                <h2>BEYOND COST SAVINGS</h2>
+
+                <ul class="benefit-list">
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Simplified Routine</strong> – One daily drink instead of multiple pills and powders
+                        </p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Improved Compliance</strong> – Easier to maintain consistent daily use</p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Optimized Ingredient Ratios</strong> – Scientifically formulated to work
+                            synergistically</p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Reduced Pill Burden</strong> – Easier on your digestive system</p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Less Packaging Waste</strong> – More environmentally friendly</p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Guaranteed Quality</strong> – Every batch third-party tested</p>
+                    </li>
+                    <li>
+                        <span class="check"></span>
+                        <p><strong>Clinically Proven</strong> – More energy, a healthier gut, better sleep, perform
+                            sharper</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <section class="testimonial">
+            <div class="testimonial-box">
+
+                <span class="quote quote-left">“</span>
+
+                <p class="testimonial-text">
+                    My doctor recommended IM8 and I used to take 20+ different supplements daily, spending over $300
+                    monthly. Switching to IM8 has saved me thousands while actually improving my results. My energy is
+                    better, my digestion has improved, and my annual bloodwork shows better numbers across the board.
+                </p>
+
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <strong>— Dr. Amy Shah,</strong>
+                        <span>
+                            Double-Board Certified Physician & Host of Podcast “Save Yourself”
+                        </span>
+                        <em>@dramyshah</em>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="compares-section">
+        <div class="compares-container">
+
+            <h2>How IM8 Measures Up: A<br>Competitive Comparison</h2>
+
+            <p class="compare-desc">
+                See why IM8 Daily Ultimate Essentials outperforms leading competitors – we believe
+                in transparency and want you to make informed decisions about your health. Here's
+                how IM8 compares to leading greens powder. The decision is yours:
+            </p>
+
+            <div class="table-wrap">
+
+                <img class="product left" src="./images/c1.png" alt="IM8">
+                <img class="product right" src="./images/c2.png" alt="Greens">
+
+                <div class="compare-table">
+
+                    <div class="table-head">
+                        <div>Daily Ultimate Essentials</div>
+                        <div>Leading Greens Powder</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>Superfoods, Greens, Fruits, Herbs</div>
+                        <div class="cell right"><span class="ok dark"></span>Superfoods, Greens, Fruits, Herbs</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>Clinical Dosed B Vitamins</div>
+                        <div class="cell right"><span class="ok dark"></span>Clinical Dosed B Vitamins</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>30mcg Clinical Dosed Vitamin D3</div>
+                        <div class="cell right"><span class="no"></span>No Vitamin D3</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>40mcg Clinical Dosed Vitamin K2</div>
+                        <div class="cell right"><span class="no"></span>Vitamin K2 dosage not disclosed</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>100mg Clinical Dosed CoQ10</div>
+                        <div class="cell right"><span class="no"></span>CoQ10 dosage not disclosed</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left"><span class="ok"></span>1000mg Clinical Dosed MSM</div>
+                        <div class="cell right"><span class="no"></span>No MSM</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left">
+                            <span class="ok"></span>
+                            3g Prebiotic fiber <small>(50% more)</small>
+                        </div>
+                        <div class="cell right"><span class="no"></span>2g Prebiotic fiber</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left">
+                            <span class="ok"></span>
+                            900mg Clinical Dosed Vitamin C <small>(114% more)</small>
+                        </div>
+                        <div class="cell right"><span class="no"></span>420mg Vitamin C</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left">
+                            <span class="ok"></span>
+                            42mg Clinical Dosed Riboflavin <small>(100% more)</small>
+                        </div>
+                        <div class="cell right"><span class="no"></span>2mg Riboflavin</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cell left">
+                            <span class="ok"></span>
+                            65mg Magnesium <small>(150% more)</small>
+                        </div>
+                        <div class="cell right"><span class="no"></span>26mg Magnesium</div>
+                    </div>
+
+                </div>
+
+                <div class="see-more">See More</div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-inner">
+
+            <!-- LINKS -->
+            <div class="footer-links">
+
+                <div class="col">
+                    <h4>SHOP</h4>
+                    <a href="#">Premium Core Nutrition</a>
+                    <a href="#">The Beckham Stack</a>
+                    <a href="#">Merchandise</a>
+                    <a href="#">Shop All</a>
+                </div>
+
+                <div class="col">
+                    <h4>COMPANY</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Science</a>
+                    <a href="#">Impact</a>
+                </div>
+
+                <div class="col">
+                    <h4>LEARN</h4>
+                    <a href="#">Reviews</a>
+                    <a href="#">Ingredients</a>
+                    <a href="#">Quality and Standards</a>
+                    <a href="#">IM8 Inner Circle</a>
+                    <a href="#">IM8 vs AG1 Next Gen</a>
+                    <a href="#">IM8 vs Live it Up Super Greens</a>
+                    <a href="#">IM8 vs Bloom Greens & Superfoods</a>
+                    <a href="#">IM8 vs Huel Daily Greens</a>
+                </div>
+
+                <div class="col">
+                    <h4>SUPPORT</h4>
+                    <a href="#">FAQs</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Returns / Exchanges</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <div class="col">
+                    <h4>IM8 COMMUNITY</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Pinterest</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>JOIN THE COMMUNITY FOR EXCLUSIVE<br>WELLNESS INSIGHTS</h3>
+
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="EMAIL ADDRESS" />
+                        <button type="submit">JOIN NOW</button>
+                    </form>
+
+                    <p class="note">
+                        *By joining, you'll receive our wellness insights and can unsubscribe anytime.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
 
 </body>
 
